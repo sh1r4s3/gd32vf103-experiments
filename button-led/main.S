@@ -1,4 +1,6 @@
 /* 
+ * vim:et:sw=2:
+ *
  * Copyright (c) 2020 Nikita Ermakov <sh1r4s3@mail.si-head.nl>
  * SPDX-License-Identifier: MIT
  *
@@ -7,7 +9,6 @@
  *   pressed. It is assumed that the button is connected to the GPIO pin 0 and
  *   LED is connected to the GPIO pin 5, both at the port B.
  *
- * vim:et:sw=2:
  */
 
 .include "../gd32vf103.inc"
