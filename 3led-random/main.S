@@ -70,11 +70,11 @@ sleep:
   j loop 
 
 xorshift:
-  slli t1, a7, 13
+  slli t1, a7, 1
   xor a7, a7, t1
-  srli t1, a7, 35
+  srli t1, a7, 3
   xor a7, a7, t1
-  slli t1, a7, 30
+  slli t1, a7, 10
   xor a7, a7, t1
   
   li t1, 3
